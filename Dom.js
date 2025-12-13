@@ -50,7 +50,17 @@ let btn = document.getElementById("btn");
 let h2 = document.getElementById("h2");
 
 let check = false;
-btn.addEventListener("click",function(){
+
+ var set = setInterval(function(){
+    console.log("hello");
+},1000);
+
+
+
+ btn.addEventListener("click",function(){
    check = !check;
    h2.innerHTML= check ? "friend" : "stranger";
+ clearInterval(set);
+
 })
+

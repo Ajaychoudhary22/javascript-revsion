@@ -55,7 +55,6 @@
   }
 ];
 
-        
 
        btn.addEventListener('click', function () {
     h1.innerText = "THE WINNER IS";
@@ -64,3 +63,4 @@
 
     box.innerText = arr[randomTeam].name.toUpperCase();
 });
+console.log(window);

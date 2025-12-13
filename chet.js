@@ -154,7 +154,7 @@ function clickCounter(){
     return  function(){
         count++;
         console.log(`Button clicked ${count} times`);
-    }
+    } 
 }
 
 let counter = clickCounter();
