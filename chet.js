@@ -148,14 +148,30 @@
 // console.log(removeDuplicates([1,2,2,3,4,4,5]));
 
 // Create a function that returns another function (closure) to count button clicks.
-let   betton = document.getElementById("btn");
-function clickCounter(){
-    let     count =0;
-    return  function(){
-        count++;
-        console.log(`Button clicked ${count} times`);
-    } 
-}
+// let   betton = document.getElementById("btn");
+// function clickCounter(){
+//     let     count =0;
+//     return  function(){
+//         count++;
+//         console.log(`Button clicked ${count} times`);
+//     } 
+// }
 
-let counter = clickCounter();
-betton.addEventListener("click", counter);
+// let counter = clickCounter();
+// betton.addEventListener("click", counter);
+
+
+//Ek HOF likho jo kisi function ko delay ke saath execute kare
+
+function delay(fn, ms){
+    return function(...args){
+        setTimeout(()=>{
+            fn(...args);
+        }, ms);
+}
+}
+let delayedLog = delay(function(message){
+    console.log(message);
+}, 2000);
+
+delayedLog("This message is delayed by 2 seconds");

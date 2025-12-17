@@ -1,0 +1,49 @@
+#main{
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 👈 4 cards per row */
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+.btn{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: #1e40af;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.price{
+    position: absolute;
+    background-color: #10b981;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+}
