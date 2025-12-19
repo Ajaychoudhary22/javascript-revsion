@@ -54,3 +54,7 @@ var user = [
 var newUser= JSON.parse(user);  
 localStorage.setItem("user", newUser);
 console.log(user);
+
+
+// var getUser= localStorage.getItem("user");
+// console.log(JSON.parse(getUser));
