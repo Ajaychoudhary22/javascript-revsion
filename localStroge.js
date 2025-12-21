@@ -58,3 +58,5 @@ console.log(user);
 
 // var getUser= localStorage.getItem("user");
 // console.log(JSON.parse(getUser));
+
+// var getUser= localStorage.getItem("user");
