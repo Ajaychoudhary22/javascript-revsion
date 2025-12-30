@@ -1,0 +1,8 @@
+java script kaa code do type ka ahota h yato vo ek synchronus yaa asynchrouns hota hai 
+
+
+main thread = vo hota hai jaha sychrouns code chalta ha 
+jo bhi main stack pr aayega vhi chlaega 
+
+web api = broweser ki taraf se bhut sare features milte hai jo ham use too krte hai pr js ke feature nhi hote h pr ham use to krte hai voo feature ham browser se milte hai
+  

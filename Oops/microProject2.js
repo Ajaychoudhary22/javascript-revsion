@@ -71,7 +71,3 @@
 
 // myMobileShop.listMobiles();
 // mobile1.getMobileInfo();
-
-
-
-

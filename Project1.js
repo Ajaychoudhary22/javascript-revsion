@@ -64,3 +64,5 @@
     box.innerText = arr[randomTeam].name.toUpperCase();
 });
 console.log(window);
+
+

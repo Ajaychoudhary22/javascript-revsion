@@ -64,5 +64,5 @@ function outer(){
         console.log(a)
     }
 
-}    
+}   
 
