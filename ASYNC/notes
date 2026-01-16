@@ -6,3 +6,11 @@ jo bhi main stack pr aayega vhi chlaega
 
 web api = broweser ki taraf se bhut sare features milte hai jo ham use too krte hai pr js ke feature nhi hote h pr ham use to krte hai voo feature ham browser se milte hai
   
+
+
+  /
+  note - asynchrouns code sabse phele jata hai web api pe vha resolve ho jata hai fir ye jata h callback queue fir event loop check krta h thread mein call stack khali hua ki nhi agar hua too mrin thread unn stack par rhe rahe execatuion contexts excute krta hia  
+
+
+  callback -> what is callback.
+  
